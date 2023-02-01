@@ -14,14 +14,20 @@
     "@astrojs/partytown": "^1.0.3",
     "@astrojs/react": "^2.0.2",
     "@astrojs/tailwind": "^3.0.1",
+    "@contentful/rich-text-html-renderer": "^16.0.2",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "astro": "^2.0.4",
+    "contentful": "^9.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "tailwindcss": "^3.0.24"
   },
   "volta": {
     "node": "18.13.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3",
+    "prettier-plugin-astro": "^0.8.0"
   }
 }
