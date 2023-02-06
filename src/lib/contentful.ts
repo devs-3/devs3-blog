@@ -2,10 +2,13 @@ import contentful from "contentful";
 
 export interface BlogPost {
   title: string;
-  date: string;
+  createdAt: string;
   description: string;
   content: Document;
   slug: string;
+  thumbnail?: any;
+  tags: string[];
+  readingDuration: number;
 }
 
 export const contentfulClient = contentful.createClient({
